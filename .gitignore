@@ -1,0 +1,12 @@
+# Local customer configuration and credentials
+cameras.csv
+nvr_list.csv
+license.key
+license.key.backup-*
+output-folder.txt
+
+# Local report data
+Report CCTV/
+logs/
+*.tmp
+
