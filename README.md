@@ -4,7 +4,7 @@ A portable Windows GUI for Hikvision recording reports, daily camera checks, and
 
 ## Download the app
 
-Open the repository's **Releases** page and download `CCTV-Report-Desk-<version>-win-x64.zip`. The GitHub Actions workflow builds the EXE on a Windows runner when a `v*` tag is pushed.
+Open the repository's **Releases** page and download `CCTV-Report-Desk-<version>-win-x64.zip`. GitHub Actions builds the EXE on a Windows runner. To publish a release from **Actions → Build Windows app → Run workflow**, enter a version such as `v1.0.0`. Pushing a `v*` tag also publishes a release automatically.
 
 ## First use
 
@@ -30,3 +30,4 @@ No third-party runtime packages are required.
 The real `cameras.csv`, `nvr_list.csv`, `license.key`, report history, logs, and custom output path are ignored by Git. The repository includes header-only CSV templates. Do not add real NVR passwords or license keys to an issue, commit, or release.
 
 The NVR password column is hidden by default in the app and can be revealed explicitly in the NVR editor. Changing a license key creates a local backup; the server validates the new key when the next report runs.
+
